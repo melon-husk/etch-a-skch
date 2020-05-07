@@ -2,7 +2,12 @@
     --grid-cols: 1;
     --grid-rows: 1;
   }
-  
+  body {
+    
+    bbackground: rgb(252,70,107);
+    background: radial-gradient(circle, rgba(252,70,107,1) 53%, rgba(63,94,251,1) 100%);
+    font-family: 'Roboto', sans-serif;
+  }
   #container {
     display: grid;
     grid-gap: 0px;
@@ -11,8 +16,10 @@
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     width: 50%;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 0 auto;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   }
   
   .grid-item {
