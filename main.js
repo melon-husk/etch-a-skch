@@ -27,4 +27,9 @@ function black(i) {
     i.style.backgroundColor="black";
     console.log('in black')
 }
-console.log("it runs");
+function reset() {
+    for(let i of divArray) {
+    
+        i.style.backgroundColor = "white";
+    }
+}
